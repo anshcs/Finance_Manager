@@ -5,3 +5,5 @@ sqlalchemy==1.4.31
 scikit-learn
 plotly==5.11.0
 plotly-express==0.4.1
+pymysql==1.0.2
+pyodbc
