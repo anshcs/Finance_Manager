@@ -100,8 +100,7 @@ mydb = mysql.connector.connect(
     host=st.secrets['host'],
     user=st.secrets['user'],
     password=st.secrets['password'],
-    database=st.secrets['database'],
-    port=st.secrets['port']
+    database=st.secrets['database']
 )
 mycursor = mydb.cursor()
 mycursor.execute('SELECT * FROM payment_table')
