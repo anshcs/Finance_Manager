@@ -2,7 +2,7 @@ import streamlit as st
 import mysql.connector
 import pandas as pd
 import plotly.express as px
-import matplotlib.pyplot as plt
+
 
 
 def stats(df):
