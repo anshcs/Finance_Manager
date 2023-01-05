@@ -97,10 +97,10 @@ opts = st.sidebar.radio(
 
 
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="financemng"
+    host=st.secrets['host'],
+    user=st.secrets['user'],
+    password=st.secrets['password'],
+    database=st.secrets['database']
 )
 mycursor = mydb.cursor()
 mycursor.execute('SELECT * FROM payment_table')
