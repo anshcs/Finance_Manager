@@ -7,3 +7,4 @@ plotly==5.11.0
 plotly-express==0.4.1
 pymysql==1.0.2
 pyodbc
+mysql-connector-python==8.0.31
